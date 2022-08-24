@@ -1,0 +1,18 @@
+title: Elsevier Journal Format
+author: Charles Teague
+version: 0.0.1
+contributes:
+  formats:
+    common:
+      date-format: full
+      filters:
+        - elsevier.lua
+    pdf:
+      documentclass: elsarticle
+      template-partials: ["partials/before-body.tex", "partials/title.tex"]
+      format-resources:
+        - elsarticle.cls
+      cite-method: natbib
+      number-sections: true
+    html:
+      theme: styles/elsevier.scss

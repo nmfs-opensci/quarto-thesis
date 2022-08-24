@@ -1,0 +1,15 @@
+# Frequently Asked Questions {#sec-appA}
+
+## How do I change the colors of links?
+
+Pass in `urlcolor: ` in yaml. Or set these in the include-in-header file.
+
+\noindent If you want to completely hide the links, you can use:
+
+{\small\verb!\hypersetup{allcolors=.}!}, or even better: 
+
+{\small\verb!\hypersetup{hidelinks}!}.
+
+\noindent If you want to have obvious links in the PDF but not the printed text, use:
+
+{\small\verb!\hypersetup{colorlinks=false}!}.

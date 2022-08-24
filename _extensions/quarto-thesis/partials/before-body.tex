@@ -1,0 +1,174 @@
+\frontmatter % Use roman page numbering style (i, ii, iii, iv...) for the pre-content pages
+
+\pagestyle{plain} % Default to the plain heading style until the thesis style is called for the body content
+
+%----------------------------------------------------------------------------------------
+%	TITLE PAGE
+%----------------------------------------------------------------------------------------
+
+\begin{titlepage}
+\begin{center}
+
+\vspace*{.06\textheight}
+{\scshape\LARGE \univname\par}\vspace{1.5cm} % University name
+\textsc{\Large Doctoral Thesis}\\[0.5cm] % Thesis type
+
+\HRule \\[0.4cm] % Horizontal line
+{\huge \bfseries \ttitle\par}\vspace{0.4cm} % Thesis title
+\HRule \\[1.5cm] % Horizontal line
+ 
+\begin{minipage}[t]{0.4\textwidth}
+\begin{flushleft} \large
+\emph{Author:}\\
+$if(author.url)$
+\href{$author.url$}{\authorname} % Author name - remove the \href bracket to remove the link
+$else$
+\authorname
+$endif$
+\end{flushleft}
+\end{minipage}
+\begin{minipage}[t]{0.4\textwidth}
+\begin{flushright} \large
+\emph{Supervisor:} \\
+$if(book.supervisor.url)$%
+\href{$book.supervisor.url$}{\supname} % Supervisor name - remove the \href bracket to remove the link  
+$else$%
+\supname
+$endif$
+\end{flushright}
+\end{minipage}\\[3cm]
+ 
+\vfill
+
+\large \textit{A thesis submitted in fulfillment of the requirements\\ for the degree of \degreename}\\[0.3cm] % University requirement text
+\textit{in the}\\[0.4cm]
+\groupname\\
+\deptname\\[2cm] % Research group name and department name
+ 
+\vfill
+
+$if(date)$
+{\large $date$}\\[4cm] % Date
+$endif$
+
+$if(cover-image)$
+\includegraphics{$cover-image$} % University/department logo
+$endif$
+ 
+\vfill
+\end{center}
+\end{titlepage}
+
+%----------------------------------------------------------------------------------------
+%	DECLARATION PAGE
+%----------------------------------------------------------------------------------------
+$if(book.declaration)$
+\begin{declaration}
+\addchaptertocentry{\authorshipname} % Add the declaration to the table of contents
+$if(book.declaration.text)$
+$book.declaration.text$
+$else$
+\input{"$book.declaration$"}
+$endif$
+
+\end{declaration}
+
+\cleardoublepage
+$endif$
+
+$if(book.quotation)$
+%----------------------------------------------------------------------------------------
+%	QUOTATION PAGE
+%----------------------------------------------------------------------------------------
+
+\vspace*{0.2\textheight}
+
+$if(book.quotation.text)$
+\noindent"{\itshape $book.quotation.text$}"\bigbreak
+
+\hfill $book.quotation.attribution$
+$else$
+\input{"$book.quotation$"}
+$endif$
+
+$endif$
+
+$if(abstract)$
+%----------------------------------------------------------------------------------------
+%	ABSTRACT PAGE
+%----------------------------------------------------------------------------------------
+
+\begin{abstract}
+\addchaptertocentry{\abstractname} % Add the abstract to the table of contents
+$abstract$
+\end{abstract}
+
+$endif$
+
+$if(book.acknowledgements)$
+%----------------------------------------------------------------------------------------
+%	ACKNOWLEDGEMENTS
+%----------------------------------------------------------------------------------------
+
+\begin{acknowledgements}
+\addchaptertocentry{\acknowledgementname} % Add the acknowledgements to the table of contents
+$if(book.acknowledgements.text)$
+$book.acknowledgements.text$
+$else$
+\input{"$book.acknowledgements$"}
+$endif$
+\end{acknowledgements}
+
+$endif$
+
+% $--	LIST OF CONTENTS/FIGURES/TABLES PAGES
+
+\tableofcontents % Prints the main table of contents
+
+\listoffigures % Prints the list of figures
+
+\listoftables % Prints the list of tables
+
+$if(book.abbreviations)$
+%----------------------------------------------------------------------------------------
+%	ABBREVIATIONS
+%----------------------------------------------------------------------------------------
+
+\input{"$book.abbreviations$"}
+
+$endif$
+
+$if(book.constants)$
+%----------------------------------------------------------------------------------------
+%	PHYSICAL CONSTANTS/OTHER DEFINITIONS
+%----------------------------------------------------------------------------------------
+
+\input{"$book.constants$"}
+
+$endif$
+
+$if(book.symbols)$
+%----------------------------------------------------------------------------------------
+%	SYMBOLS
+%----------------------------------------------------------------------------------------
+
+\input{"$book.symbols$"}
+
+$endif$
+
+$if(book.dedication)$
+%----------------------------------------------------------------------------------------
+%	DEDICATION
+%----------------------------------------------------------------------------------------
+
+\dedicatory{\input{"$book.dedication$"}} 
+
+$endif$
+
+%----------------------------------------------------------------------------------------
+%	THESIS CONTENT - CHAPTERS
+%----------------------------------------------------------------------------------------
+
+\mainmatter % Begin numeric (1,2,3...) page numbering
+
+\pagestyle{thesis} % Return the page headers back to the "thesis" style
