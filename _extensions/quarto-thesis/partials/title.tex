@@ -23,3 +23,5 @@ $if(book.faculty)$
 \faculty{$book.faculty$} % Your faculty's name and URL, this is used in the title page and abstract, print it elsewhere with \facname
 $else$
 \faculty{}$endif$
+
+\setcounter{tocdepth}{$if(toc-depth)$$toc-depth$$else$3$endif$} % The depth to which the document sections are printed to the table of contents

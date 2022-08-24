@@ -30,6 +30,7 @@ book:
   dedication: "Frontmatter/dedication.tex"
   chapters:
     - index.qmd
+    - Chapters/Chapter1.qmd
     - Chapters/Chapter2.qmd
     - references.qmd
   appendices:
@@ -47,9 +48,7 @@ execute:
   code-overflow: wrap
 
 format:
-  html:
-    theme: cosmo
-    toc: true
-    toc-depth: 3
   quarto-thesis-pdf: 
     urlcolor: blue
+    toc-depth: 2
+

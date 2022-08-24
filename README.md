@@ -2,22 +2,22 @@
 
 Quarto extension for a masters or PhD thesis based on Masters/Doctoral Thesis, LaTeX Template, Version 2.5 (27 Aug 2017)
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Masters/Doctoral Thesis 
-% LaTeX Template
-% Version 2.5 (27/8/17)
-%
-% This template was downloaded from:
-% http://www.LaTeXTemplates.com
-%
-% Version 2.x major modifications by:
-% Vel (vel@latextemplates.com)
-%
-% This template is based on a template by:
-% Steve Gunn (http://users.ecs.soton.ac.uk/srg/softwaretools/document/templates/) and Sunil Patel (http://www.sunilpatel.co.uk/thesis-template/)
-%
-% Template license:
-% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+## Installing the extension
+
+```bash
+quarto use template nmfs-opensci/quarto-thesis
+```
+
+## Installation for an existing document
+
+You may also use this format with an existing Quarto project or document. From the quarto project or document directory, run the following command to install the extension in a `_extensions` folder in your project:
+
+```bash
+quarto install extension nmfs-opensci/quarto-thesis
+```
+
+
+## Customizing
+
 
