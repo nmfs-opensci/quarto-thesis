@@ -40,3 +40,4 @@ Start adding Chapters to the Chapters folder.
 
 * I doubt that passing in `classoptions` in your `_quarto.yml` will work. The [elsevier lua filter](https://github.com/quarto-journals/elsevier/blob/main/_extensions/elsevier/elsevier.lua) suggests that the classoptions need to be added on.
 
+* Why does `index-blx.bib` keep appearing?
