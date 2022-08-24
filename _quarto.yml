@@ -30,7 +30,6 @@ book:
   dedication: "Frontmatter/dedication.tex"
   chapters:
     - index.qmd
-    - Chapters/Chapter1.qmd
     - Chapters/Chapter2.qmd
     - references.qmd
   appendices:
