@@ -2,6 +2,10 @@
 
 Quarto extension for a masters or PhD thesis based on Masters/Doctoral Thesis, LaTeX Template, Version 2.5 (27 Aug 2017)
 
+## Warning. Chapter 1 has R code
+
+Python and Julia users: After you install the extension, search for `{r}` in `Chapters/Chapter1.qmd` and get rid of the R code (for a table and a figure) or replace with Python or Julia code.
+
 
 ## Installing the extension
 
@@ -9,6 +13,12 @@ You will need to do this to get all the folders with tex files.
 
 ```bash
 quarto use template nmfs-opensci/quarto-thesis
+```
+
+Once you do that you can render from within the folder.
+
+```bash
+quarto render
 ```
 
 ## Installation for an existing document
