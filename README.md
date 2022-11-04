@@ -2,7 +2,7 @@
 
 Quarto extension for a masters or PhD thesis based on Masters/Doctoral Thesis, LaTeX Template, Version 2.5 (27 Aug 2017)
 
-You can play with it on RStudio Cloud without installing anything: https://rstudio.cloud/content/4383755
+You can play with it on RStudio Cloud without installing anything: https://rstudio.cloud/content/4383755  Go to the Build tab (upper right panel) and click Render Book.
 
 ## Warning. Chapter 1 has R code
 
