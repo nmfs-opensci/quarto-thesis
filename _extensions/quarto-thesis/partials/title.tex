@@ -1,26 +1,26 @@
 \thesistitle{$title$} % Your thesis title, this is used in the title and abstract, print it elsewhere with \ttitle
-\supervisor{$book.supervisor.name$} % Your supervisor's name, this is used in the title page, print it elsewhere with \supname
+\supervisor{$thesis.supervisor.name$} % Your supervisor's name, this is used in the title page, print it elsewhere with \supname
 \examiner{} % Your examiner's name, this is not currently used anywhere in the template, print it elsewhere with \examname
-\degree{$book.degree-name$} % Your degree name, this is used in the title page and abstract, print it elsewhere with \degreename
+\degree{$thesis.degree-name$} % Your degree name, this is used in the title page and abstract, print it elsewhere with \degreename
 \author{$author$} % Your name, this is used in the title page and abstract, print it elsewhere with \authorname
 \addresses{} % Your address, this is not currently used anywhere in the template, print it elsewhere with \addressname
 
 \subject{} % Your subject area, this is not currently used anywhere in the template, print it elsewhere with \subjectname
 \keywords{} % Keywords for your thesis, this is not currently used anywhere in the template, print it elsewhere with \keywordnames
-$if(book.department)$
-\university{$book.university$} % Your university's name, this is used in the title page and abstract, print it elsewhere with \univname
+$if(thesis.department)$
+\university{$thesis.university$} % Your university's name, this is used in the title page and abstract, print it elsewhere with \univname
 $else$\university{}
 $endif$
-$if(book.department)$
-\department{$book.department$} % Your department's name, this is used in the title page and abstract, print it elsewhere with \deptname
+$if(thesis.department)$
+\department{$thesis.department$} % Your department's name, this is used in the title page and abstract, print it elsewhere with \deptname
 $else$\department{}
 $endif$
-$if(book.group)$
-\group{$book.group$} % Your research group's name and URL, this is used in the title page, print it elsewhere with \groupname
+$if(thesis.group)$
+\group{$thesis.group$} % Your research group's name and URL, this is used in the title page, print it elsewhere with \groupname
 $else$\group{}
 $endif$
-$if(book.faculty)$
-\faculty{$book.faculty$} % Your faculty's name and URL, this is used in the title page and abstract, print it elsewhere with \facname
+$if(thesis.faculty)$
+\faculty{$thesis.faculty$} % Your faculty's name and URL, this is used in the title page and abstract, print it elsewhere with \facname
 $else$
 \faculty{}$endif$
 

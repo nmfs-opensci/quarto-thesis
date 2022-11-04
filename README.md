@@ -23,9 +23,9 @@ Once you do that you can render from within the folder.
 quarto render
 ```
 
-## Installation for an existing document
+## Installation or updating for an existing document
 
-You may also use this format with an existing Quarto project or document. But you will need to have all the tex folders already.
+You may also use this format with an existing Quarto project or document. But you will need to have all the tex folders already (see above).
 
 ```bash
 quarto install extension nmfs-opensci/quarto-thesis

@@ -1,33 +1,15 @@
 project:
   type: book
   output-dir: .
-  output-file: "Thesis"
 
 book:
   title: A doctoral thesis title
   author:
     name: Jane Doe
     url: http://www.janedoe.com
-  supervisor: 
-    name: Dr. Ashok Kunil
-    url: http://www.ashok.com
-  degree-name: Doctor of Philosophy
   cover-image: images/logo.png
   downloads: [pdf]
-  university: University of Ottawa
-  department: Department of Mathematics
-  group: Informatics Program
-  faculty: Applied Math Group
-
-  declaration: "Frontmatter/declaration.tex"
-  quotation:
-    text: "Thanks to my solid academic training, today I can write hundreds of words on virtually any topic without possessing a shred of information, which is how I got a good job in journalism."
-    attribution: Dave Barry
-  acknowledgements: "Frontmatter/acknowledgements.tex"
   abstract: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam quis accumsan ante. Quisque lorem metus, varius id urna eget, lacinia dapibus sem. Etiam laoreet, quam ac mollis congue, arcu leo dictum neque, nec euismod sem enim luctus odio. Donec condimentum tortor sit amet mollis volutpat. Donec ornare libero vel velit malesuada consectetur. Vestibulum in sem non justo dignissim congue at quis erat. Integer quis erat vitae mi maximus fringilla tristique nec odio. Morbi non ipsum sapien. Vestibulum tortor est, ultricies in eros et, bibendum iaculis justo. Cras pellentesque enim quam, id pretium lacus lacinia non. Integer velit neque, ultrices a malesuada vel, imperdiet quis enim. Quisque eu facilisis urna, ut faucibus lorem. Donec mollis turpis sed arcu venenatis interdum. Nulla facilisis tortor ac scelerisque consequat."
-  abbreviations: "Frontmatter/abbreviations.tex"
-  symbols: "Frontmatter/symbols.tex"
-  dedication: "Frontmatter/dedication.tex"
   chapters:
     - index.qmd
     - Chapters/Chapter2.qmd
@@ -40,14 +22,36 @@ book:
   repo-actions: [edit, source, issue]
   search: true
 
+thesis:
+  supervisor: 
+    name: Dr. Ashok Kunil
+    url: https://quarto.org/
+  degree-name: Doctor of Philosophy
+  university: University of Ottawa
+  department: Department of Mathematics
+  group: Informatics Program
+  faculty: Applied Math Group
+  declaration: "Frontmatter/declaration.tex"
+  quotation:
+    text: "Thanks to my solid academic training, today I can write hundreds of words on virtually any topic without possessing a shred of information, which is how I got a good job in journalism."
+    attribution: Dave Barry
+  acknowledgements: "Frontmatter/acknowledgements.tex"
+  abbreviations: "Frontmatter/abbreviations.tex"
+  symbols: "Frontmatter/symbols.tex"
+  dedication: "Frontmatter/dedication.tex"
+
 bibliography: [example.bib]
 
 execute:
   echo: false
   code-overflow: wrap
 
+# urlcolor changes the url color in the body of the PDF
+# linkcolor changes color of internal links (like to figures)
+# toclinkcolor changes color of toc, lof and lot links
 format:
   quarto-thesis-pdf: 
-    urlcolor: blue
+    urlcolor: red
+    toclinkcolor: black
     toc-depth: 2
 

@@ -2,7 +2,8 @@
 
 ## Welcome and Thank You
 
-Welcome to this \LaTeX{} Thesis Template, using the \LaTeX{} typesetting system and [Quarto](quarto.org) and based on the \LaTeX{} thesis template MastersDoctoralThesis version 2.0 downloaded from [LaTeXTemplates](http://www.LaTeXTemplates.com). The class was authored by Vel (vel@latextemplates.com) and Johannes Böttcher based on a style file by Steve R. Gunn from the University of Southampton (UK), department of Electronics and Computer Science.
+Welcome to this \LaTeX{} Thesis Template, using the \LaTeX{} typesetting system and [Quarto](quarto.org) and based on the \LaTeX{} thesis template MastersDoctoralThesis version 2.0 downloaded from [LaTeXTemplates](http://www.LaTeXTemplates.com). 
+This LaTeX document class was authored by Vel (vel@latextemplates.com) and Johannes Böttcher based on a style file by Steve R. Gunn from the University of Southampton (UK), department of Electronics and Computer Science.
 
 
 ## A Short Math Guide for \LaTeX{}
@@ -165,13 +166,11 @@ The [Not So Short Introduction to LaTeX](http://www.ctan.org/tex-archive/info/ls
 
 Good luck and have lots of fun!
 
-Guide written originally by
+This guide was written originally by
 
 Sunil Patel: http://www.sunilpatel.co.uk}{www.sunilpatel.co.uk
 
-and
+and Vel: http://www.LaTeXTemplates.com
 
-Vel: http://www.LaTeXTemplates.com
-
-and heavily shorted and adapted for [Quarto](https://quarto.org/) by [Eli](https://eeholmes.github.io).
+and heavily shortened and adapted for [Quarto](https://quarto.org/) by [Eli Holmes](https://eeholmes.github.io).
 
