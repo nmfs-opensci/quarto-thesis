@@ -36,17 +36,11 @@ quarto install extension nmfs-opensci/quarto-thesis
 
 Start adding Chapters to the Chapters folder.
 
-## FAQ
+## Getting and giving help
 
-I have more than one supervisor. Use the multi-line format.
+First try the Discussion link because there may be a solution there. Have a solution to post or want to show how you have used this template? Post to the discussion forum too!
 
-```
-  supervisor: 
-    name: |
-      Dr. Ashok Kunil\
-      Dr. Second Supervisor\
-      Dr. Third Supervisor
-```
+If you think it's a bug, then definitely post an issue and I'll look into it! 
 
 ## Problems
 
