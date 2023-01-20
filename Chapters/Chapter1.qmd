@@ -118,7 +118,7 @@ When you render your Quarto thesis to PDF, it will process \LaTeX{} table code j
     knitr::kable(head(mtcars))
     ```
 
-The `#|` is what sets up our cross-references and you can then reference the table as `@tbl-cars`.
+The `#|` is what sets up our cross-references and you can then reference the table as `@tbl-cars`. Note in order for table numbering to work in Quarto, you **must** label your tables with the `tbl-` prefix.
 
 
 ```{r}
