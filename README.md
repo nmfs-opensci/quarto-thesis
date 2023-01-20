@@ -36,6 +36,18 @@ quarto install extension nmfs-opensci/quarto-thesis
 
 Start adding Chapters to the Chapters folder.
 
+## FAQ
+
+I have more than one supervisor. Use the multi-line format.
+
+```
+  supervisor: 
+    name: |
+      Dr. Ashok Kunil\
+      Dr. Second Supervisor\
+      Dr. Third Supervisor
+```
+
 ## Problems
 
 * Meh, all the stuff in Frontmatter is mandatory LaTeX since it is being injected into the tex document after the qmd is processed. Probably need to learn how to write a lua filter to render the Frontmatter qmd to LaTeX via Pandoc.
