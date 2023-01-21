@@ -1,6 +1,6 @@
 title: quarto-thesis
 author: Eli Holmes
-version: 0.2.2
+version: 0.2.3
 contributes:
   format:
     pdf:

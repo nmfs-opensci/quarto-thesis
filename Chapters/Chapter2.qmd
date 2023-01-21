@@ -4,9 +4,15 @@
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ultricies lacinia euismod. Nam tempus risus in dolor rhoncus in interdum enim tincidunt. Donec vel nunc neque. In condimentum ullamcorper quam non consequat. Fusce sagittis tempor feugiat. Fusce magna erat, molestie eu convallis ut, tempus sed arcu. Quisque molestie, ante a tincidunt ullamcorper, sapien enim dignissim lacus, in semper nibh erat lobortis purus. Integer dapibus ligula ac risus convallis pellentesque.
 
+
+$$
+\int_{A_i}{\lambda (\pmb{\mu})}
+$$ {#eq-pmb}
+
+
 $$
 \int_{A_i}{\lambda (\mathbf{x})}
-$$ {#eq-ctl}
+$$ {#eq-mathbf}
 
 ### Subsection 1
 
