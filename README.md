@@ -1,8 +1,6 @@
 # quarto-thesis
 
-Quarto extension for a masters or PhD thesis based on Masters/Doctoral Thesis, LaTeX Template, Version 2.5 (27 Aug 2017)
-
-You can play with it on RStudio Cloud without installing anything: https://rstudio.cloud/content/4383755  Go to the Build tab (upper right panel) and click Render Book.
+Quarto extension for a masters or PhD thesis based on Masters/Doctoral Thesis, LaTeX Template, Version 2.5 (27 Aug 2017). You can play with it on RStudio Cloud without installing anything: https://rstudio.cloud/content/4383755  Go to the Build tab (upper right panel) and click Render Book.
 
 ## Warning. Chapter 1 has R code
 
@@ -31,7 +29,6 @@ You may also use this format with an existing Quarto project or document. But yo
 quarto install extension nmfs-opensci/quarto-thesis
 ```
 
-
 ## Usage
 
 Start adding Chapters to the Chapters folder.
@@ -42,9 +39,14 @@ First try the Discussion link because there may be a solution there. Have a solu
 
 If you think it's a bug, then definitely post an issue and I'll look into it! 
 
+## Contributors
+
+[![Contributors](https://contrib.rocks/image?repo=nmfs-opensci/quarto-thesis)](https://github.com/nmfs-opensci/quarto-thesis/graphs/contributors)
+
+
 ## Problems
 
-* Meh, all the stuff in Frontmatter is mandatory LaTeX since it is being injected into the tex document after the qmd is processed. Probably need to learn how to write a lua filter to render the Frontmatter qmd to LaTeX via Pandoc.
+* All the stuff in Frontmatter is mandatory LaTeX since it is being injected into the tex document after the qmd is processed. Probably need to learn how to write a lua filter to render the Frontmatter qmd to LaTeX via Pandoc.
 
 * I doubt that passing in `classoptions` in your `_quarto.yml` will work. The [elsevier lua filter](https://github.com/quarto-journals/elsevier/blob/main/_extensions/elsevier/elsevier.lua) suggests that the classoptions need to be added on.
 
