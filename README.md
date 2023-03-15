@@ -4,7 +4,9 @@ Quarto extension for a masters or PhD thesis based on Masters/Doctoral Thesis, L
 
 ## Quick Start!
 
-Show me how to download a zip and open in RStudio: [Video](https://youtu.be/33l8GhtUfnU)
+* Show me how to download a zip and open in RStudio: [Video](https://youtu.be/33l8GhtUfnU)
+* Show me how to use this repo as a template and then clone to my computer with RStudio: [Video](https://youtu.be/smzNQtogSaI)
+* Show me how to render in Visual Studio Code (see previous videos for how to get the repo onto your computer): [Video](https://youtu.be/IJe3A8-Ee2E)
 
 
 ## Installing the extension
