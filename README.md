@@ -40,7 +40,11 @@ For a LaTeX document, the class file `MasterDoctoralThesis.cls` in the `_extensi
 
 ### Adding content
 
-To add content, start adding Chapters to the Chapters folder.
+* start adding Chapters in qmd format to the Chapters folder.
+* then add the chapter (or appendix) to the `_quarto.yml` file
+
+<img width="305" alt="image" src="https://github.com/nmfs-opensci/quarto-thesis/assets/2545978/3cbd21f5-185f-4930-8699-a623af15fd84">
+
 
 ## Getting and giving help
 
