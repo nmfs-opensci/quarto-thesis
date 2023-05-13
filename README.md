@@ -7,6 +7,7 @@ Quarto extension for a masters or PhD thesis based on Masters/Doctoral Thesis, L
 * Show me how to download a zip and open in RStudio: [Video](https://youtu.be/33l8GhtUfnU)
 * Show me how to use this repo as a template and then clone to my computer with RStudio: [Video](https://youtu.be/smzNQtogSaI)
 * Show me how to render in Visual Studio Code (see previous videos for how to get the repo onto your computer): [Video](https://youtu.be/IJe3A8-Ee2E)
+* Scroll to the bottom for information on customizing the look of your thesis.
 
 
 ## Installing the extension
@@ -33,7 +34,13 @@ quarto install extension nmfs-opensci/quarto-thesis
 
 ## Usage
 
-Start adding Chapters to the Chapters folder.
+### Customizing the look
+
+For a LaTeX document, the class file `MasterDoctoralThesis.cls` in the `_extensions/quarto-thesis` determines the look and LaTeX environments available. To make any changes to the layout, change the MasterDoctoralThesis.cls **in the _extensions folder**. The `MastersDoctoralThesis.cls` file in the main folder will be overwritten by the one in the `_extensions` folder when you re-rerender.  To get info on the MasterDoctoralThesis document class, do a web search for `MasterDoctoralThesis.cls`. You'll find some documentation.
+
+### Adding content
+
+To add content, start adding Chapters to the Chapters folder.
 
 ## Getting and giving help
 
