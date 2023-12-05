@@ -1,3 +1,10 @@
+---
+format:
+  pdf:
+    documentclass: ../MastersDoctoralThesis
+    classoption: ["11pt", "english", "singlespacing", "headsepline"]
+---
+
 # Chapter 1 Title {#sec-Chapter1}
 
 ## Welcome and Thank You
@@ -8,8 +15,8 @@ This LaTeX document class was authored by Vel (vel@latextemplates.com) and Johan
 
 ## A Short Math Guide for \LaTeX{}
 
-If you are writing a technical or mathematical thesis, then you may want to read the document by the AMS (American Mathematical Society) called, \enquote{A Short Math Guide for \LaTeX{}}. It can be found online at [AMS](http://www.ams.org/tex/amslatex.html) 
-under the \enquote{Additional Documentation} section towards the bottom of the page.
+If you are writing a technical or mathematical thesis, then you may want to read the document by the AMS (American Mathematical Society) called, ``A Short Math Guide for \LaTeX{}". It can be found online at [AMS](http://www.ams.org/tex/amslatex.html) 
+under the ``Additional Documentation" section towards the bottom of the page.
 
 ### Common \LaTeX{} Math Symbols
 
@@ -94,7 +101,7 @@ In the text use `@smith2000` to produce Smith (2000) add use `[@smith2000, @jone
 
 The bibtex backend used in the template by default does not correctly handle unicode character encoding (i.e. "international" characters). You may see a warning about this in the compilation log and, if your references contain unicode characters, they may not show up correctly or at all. One solution to this is to use the biber backend instead of the outdated bibtex backend. This is done by finding this in `tex/in-header.tex`: `backend=bibtex` and changing it to `backend=biber`. Google a bit to find information on this.
 
-## Thesis Features and Conventions {sec-ThesisConventions}
+## Thesis Features and Conventions {#sec-ThesisConventions}
 
 To get the best out of this template, there are a few conventions that you may want to follow.
 
