@@ -4,10 +4,10 @@ project:
 
 book:
   title: A doctoral thesis title
+  date: December 15, 2023
   author:
     name: Jane Doe
     url: http://www.janedoe.com
-  cover-image: images/logo.png
   downloads: [pdf]
   abstract: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam quis accumsan ante. Quisque lorem metus, varius id urna eget, lacinia dapibus sem. Etiam laoreet, quam ac mollis congue, arcu leo dictum neque, nec euismod sem enim luctus odio. Donec condimentum tortor sit amet mollis volutpat. Donec ornare libero vel velit malesuada consectetur. Vestibulum in sem non justo dignissim congue at quis erat. Integer quis erat vitae mi maximus fringilla tristique nec odio. Morbi non ipsum sapien. Vestibulum tortor est, ultricies in eros et, bibendum iaculis justo. Cras pellentesque enim quam, id pretium lacus lacinia non. Integer velit neque, ultrices a malesuada vel, imperdiet quis enim. Quisque eu facilisis urna, ut faucibus lorem. Donec mollis turpis sed arcu venenatis interdum. Nulla facilisis tortor ac scelerisque consequat."
   chapters:
@@ -39,6 +39,8 @@ thesis:
   abbreviations: "Frontmatter/abbreviations.tex"
   symbols: "Frontmatter/symbols.tex"
   dedication: "Frontmatter/dedication.tex"
+  logo: images/logo.png
+  logo-height: "3cm"
 
 bibliography: [example.bib]
 

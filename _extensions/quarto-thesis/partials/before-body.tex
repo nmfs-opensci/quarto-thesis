@@ -47,13 +47,18 @@ $endif$
  
 \vfill
 
-$if(date)$
-{\large $date$}\\[4cm] % Date
+$if(thesis.logo)$
+$if(thesis.logo-height)$
+\includegraphics[height=$thesis.logo-height$]{$thesis.logo$} % University/department logo
+$else$
+\includegraphics{$thesis.logo$}
+$endif$
 $endif$
 
-$if(cover-image)$
-\includegraphics{$cover-image$} % University/department logo
+$if(book.date)$
+{\large $book.date$}\\[4cm] % Date
 $endif$
+
  
 \vfill
 \end{center}
